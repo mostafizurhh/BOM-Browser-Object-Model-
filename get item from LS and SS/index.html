@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore local storage</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Add and Remove Item to and from Local Storage</h1>
+    <input type="text" id="inputField" placeholder="Name">
+    <button id="addName" onclick="addName()"> Add Name to LS</button>
+    <button id="removeName" onclick="removeName()">Remove Name from LS</button>
+    <br><br>
+    <input type="text" id="inputFieldAge" placeholder="Age">
+    <button id="addAge" onclick="addAge()"> Add Age to LS</button>
+    <button id="removeAge" onclick="removeAge()">Remove Age from LS</button>
+    <br><br>
+    <button id="clearAll" onclick="clearAll()">Clear All</button>
+
+    <script src="exploreLS.js"></script>
+</body>
+
+</html>
